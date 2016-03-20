@@ -1,4 +1,4 @@
-This is a [GitHub page](https://pages.github.com/) for our project. It is published/hosted by GitHub at http://rormuc.github.io.
+This is a [GitHub page](https://pages.github.com/) for our project. It is published/hosted by GitHub at http://rormuc.github.io (and we set up DNS so it's available at http://munich.refugeesonrails.org).
 
 # How to update the page
 
