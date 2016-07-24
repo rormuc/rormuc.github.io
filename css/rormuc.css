@@ -8,7 +8,7 @@ ul {
 }
 
 a, a:hover {
-	color: #53B8A7;
+	color: #429285;
 }
 
 h1 {
@@ -22,6 +22,11 @@ header p {
 p {
     font-size: 20px;
     text-align: justify;
+}
+
+.first p {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .line {
@@ -42,7 +47,7 @@ p {
 }
 
 .partners {
-    background: #53B8A7;
+    background: #429285;
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -62,8 +67,31 @@ p {
     width:100%;
     height:400px;
     /*height:calc(100% + 50px);*/
-    background: url('../images/header-image-ror.jpg') no-repeat center;
+    background: url('../images/header.jpg') no-repeat center;
     background-size: cover;
+}
+.header-img img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200;
+}
+
+.header-img p {
+    text-align: left;
+    margin-left: 30px;
+    color: #429285;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 500;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+
+}
+
+.title {
+    margin-top: 10px;
+}
+.city {
+    margin-left: 60px !important;
 }
 
 .social-icons {
@@ -75,12 +103,13 @@ p {
 }
 .social-icons i {
     margin-right: 10px;
-    color: white;
+    color: #fdf5e2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn {
     border-radius: 0;
-    background-color: #53B8A7;
+    background-color: #429285;
     border-color: transparent;
     font-size: 22px;
     padding: 10px 30px 10px 30px;
@@ -88,12 +117,33 @@ p {
 
 .btn:hover {
     border-color: transparent;
-    background-color: #53B8A7;
+    background-color: #429285;
     opacity: 0.8;
 }
 
-@media only screen and (min-width: 320px) and (max-device-width: 540px) and (orientation:portrait) {
+.btn:active {
+    border-color: transparent;
+    background-color: #429285 !important;
+}
+
+.btn:focus {
+    border-color: transparent;
+    background-color: #429285 !important;
+}
+
+@media only screen and (min-width: 310px) and (orientation:portrait) {
     .header-img {
-        background-image: url('../images/header-image-ror-center.jpg');
+        height:200px;
+        margin-bottom: 40px;
+    }
+
+    .header-img img {
+        margin: 0;
+        width: 100;
+    }
+
+    .first {
+        margin-top: 40px;
+
     }
 }
