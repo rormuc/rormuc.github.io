@@ -63,6 +63,22 @@ p {
     margin: 0 auto;
 }
 
+.partners .img-container {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.partners .medialab img {
+  margin-top: -5px;
+}
+
+.partners .horizont img {
+  margin-top: -60px;
+}
+
 .header-img {
     margin-top: 0;
     width:100%;
