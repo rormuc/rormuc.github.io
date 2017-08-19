@@ -148,6 +148,10 @@ p {
     background-color: #429285 !important;
 }
 
+.announcement {
+  border: 3px solid #429285;
+}
+
 @media only screen and (min-width: 310px) and (orientation:portrait) {
     .header-img {
         height:200px;
